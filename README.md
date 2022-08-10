@@ -1,6 +1,6 @@
 # ArtFID: Quantitative Evaluation of Neural Style Transfer (GCPR Oral 2022)
 
-[**ArtFID: Quantitative Evaluation of Neural Style Transfer**](https://arxiv.org/abs/2207.12280)
+[**ArtFID: Quantitative Evaluation of Neural Style Transfer**](https://arxiv.org/abs/2207.12280)<br>
 [Matthias Wright](http://www.matthias-wright.com/) and [Björn Ommer](https://hci.iwr.uni-heidelberg.de/people/bommer).<br>
 
 
