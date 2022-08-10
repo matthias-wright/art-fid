@@ -26,7 +26,7 @@ The content images and the corresponding stylized images are compared in pairs. 
 `--stylized_images` - Path to stylized images.
 
 ## Data
-The dataset is contained in [artfid_dataset.csv](https://raw.githubusercontent.com/matthias-wright/art-fid/main/artfid_dataset.csv). It consists of 250k labeled artworks.
+The dataset is contained in [artfid_dataset.csv](https://raw.githubusercontent.com/matthias-wright/art-fid/master/artfid_dataset.csv). It consists of 250k labeled artworks.
 
 ## Acknowledgments
 * The implementation of the FID is based on [mseitzer/pytorch-fid](https://github.com/mseitzer/pytorch-fid).
