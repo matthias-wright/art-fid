@@ -16,14 +16,14 @@ CUDA_VISIBLE_DEVICES=0 python -m art_fid --style_images path/to/style-images --c
 The content images and the corresponding stylized images are compared in pairs. In order to ensure that a content image is matched up with the correct stylized image, both the content images and the stylized images are processed in lexicographical order. A simple way of pairing the content images and the stylized images is to use the name of content image for the corresponding stylized image.
 
 ### Arguments
-`--batch_size` - Batch size for computing activations.
-`--num_workers` - Number of threads used for data loading.
-`--mode` - Evaluate ArtFID or ArtFID_infinity, choices = ['art_fid', 'art_fid_inf'].
-`--content_metric` - Content metric, choices = ['lpips', 'vgg', 'alexnet'].
-`--device` - Device to use, choices = ['cuda', 'cpu'].
-`--style_images` - Path to style images.
-`--content_images` - Path to content images.
-`--stylized_images` - Path to stylized images.
+`--batch_size` - Batch size for computing activations.  
+`--num_workers` - Number of threads used for data loading.  
+`--mode` - Evaluate ArtFID or ArtFID_infinity, choices = ['art_fid', 'art_fid_inf'].  
+`--content_metric` - Content metric, choices = ['lpips', 'vgg', 'alexnet'].  
+`--device` - Device to use, choices = ['cuda', 'cpu'].  
+`--style_images` - Path to style images.  
+`--content_images` - Path to content images.  
+`--stylized_images` - Path to stylized images.  
 
 ## Data
 The dataset is contained in [artfid_dataset.csv](https://raw.githubusercontent.com/matthias-wright/art-fid/master/artfid_dataset.csv). It consists of 250k labeled artworks.
