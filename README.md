@@ -44,3 +44,5 @@ The dataset is contained in [artfid_dataset.csv](https://raw.githubusercontent.c
 }
 ```
 
+## License
+[MIT](https://mit-license.org/)
