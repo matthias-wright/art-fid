@@ -3,6 +3,8 @@
 [**ArtFID: Quantitative Evaluation of Neural Style Transfer**](https://arxiv.org/abs/2207.12280)<br>
 [Matthias Wright](http://www.matthias-wright.com/) and [Björn Ommer](https://hci.iwr.uni-heidelberg.de/people/bommer).<br>
 
+## Abstract
+The field of neural style transfer has experienced a surge of research exploring different avenues ranging from optimization-based approaches and feed-forward models to meta-learning methods. The developed techniques have not just progressed the field of style transfer, but also led to breakthroughs in other areas of computer vision, such as all of visual synthesis. However, whereas quantitative evaluation and benchmarking have become pillars of computer vision research, the reproducible, quantitative assessment of style transfer models is still lacking. Even in comparison to other fields of visual synthesis, where widely used metrics exist, the quantitative evaluation of style transfer is still lagging behind. To support the automatic comparison of different style transfer approaches and to study their respective strengths and weaknesses, the field would greatly benefit from a quantitative measurement of stylization performance. Therefore, we propose a method to complement the currently mostly qualitative evaluation schemes. We provide extensive evaluations and a large-scale user study to show that the proposed metric strongly coincides with human judgment.
 
 ## Installation
 ```sh
