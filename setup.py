@@ -7,14 +7,14 @@ with open(os.path.join(directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='art-fid',
-      version='0.0.1',
+      version='0.0.2',
       url='https://github.com/matthias-wright/art-fid',
       author='Matthias Wright',
       packages=find_packages(),
       entry_points = {
           'console_scripts': ['pycli = pycli.__main__:main']
       },
-      install_requires=['numpy>=1.19.5',
+      install_requires=['numpy>=1.19.5,<2',
                         'Pillow>=7.1.2',
                         'tqdm>=4.60.0',
                         'scikit-learn',
@@ -22,7 +22,7 @@ setup(name='art-fid',
                         'lpips',
                         'torchvision>=0.9.0',
                         'scipy',
-                        'requests==2.24.0'],
+                        'requests>=2.27.0, <3'],
       python_requires='>=3.8',
       license='Apache License 2.0',
       description='ArtFID: Quantitative Evaluation of Neural Style Transfer',
